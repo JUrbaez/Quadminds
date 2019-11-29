@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QuaMinds-FrontEndTests">
+              <span class="suite-name border-failed">QuaMinds-FrontEndTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QuaMinds-FrontEndTests">
+                    <span>C:\Users\jurbaez\secureauth-workspace\Minds\FrontEndTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QuaMinds-FrontEndTests">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QuaMinds-FrontEndTests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QuaMinds-FrontEndTests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QuaMinds-FrontEndTests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QuaMinds-FrontEndTests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QuaMinds-FrontEndTests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QuaMinds-FrontEndTests" class="hide-methods failed suite-QuaMinds-FrontEndTests"> (hide)</a> <!-- hide-methods failed suite-QuaMinds-FrontEndTests -->
+                      <a href="#" panel-name="suite-QuaMinds-FrontEndTests" class="show-methods failed suite-QuaMinds-FrontEndTests"> (show)</a> <!-- show-methods failed suite-QuaMinds-FrontEndTests -->
+                    </span>
+                    <div class="method-list-content failed suite-QuaMinds-FrontEndTests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="ejercicio2">ejercicio2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="verifyPrices">verifyPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="verifyPrices">verifyPrices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QuaMinds-FrontEndTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QuaMinds-FrontEndTests" class="hide-methods passed suite-QuaMinds-FrontEndTests"> (hide)</a> <!-- hide-methods passed suite-QuaMinds-FrontEndTests -->
+                      <a href="#" panel-name="suite-QuaMinds-FrontEndTests" class="show-methods passed suite-QuaMinds-FrontEndTests"> (show)</a> <!-- show-methods passed suite-QuaMinds-FrontEndTests -->
+                    </span>
+                    <div class="method-list-content passed suite-QuaMinds-FrontEndTests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="ejercicio2">ejercicio2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="verifyCategoryClimatizacion">verifyCategoryClimatizacion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="verifyCategoryClimatizacion">verifyCategoryClimatizacion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="verifySmartCellsGrid">verifySmartCellsGrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-FrontEndTests" title="FrontEndTests.FE_Tests" hash-for-method="verifySmartCellsGrid">verifySmartCellsGrid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QuaMinds-FrontEndTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QuaMinds-BackEndTests">
+              <span class="suite-name border-failed">QuaMinds-BackEndTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QuaMinds-BackEndTests">
+                    <span>C:\Users\jurbaez\secureauth-workspace\Minds\BackEndTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QuaMinds-BackEndTests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QuaMinds-BackEndTests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QuaMinds-BackEndTests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QuaMinds-BackEndTests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QuaMinds-BackEndTests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QuaMinds-BackEndTests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QuaMinds-BackEndTests" class="hide-methods failed suite-QuaMinds-BackEndTests"> (hide)</a> <!-- hide-methods failed suite-QuaMinds-BackEndTests -->
+                      <a href="#" panel-name="suite-QuaMinds-BackEndTests" class="show-methods failed suite-QuaMinds-BackEndTests"> (show)</a> <!-- show-methods failed suite-QuaMinds-BackEndTests -->
+                    </span>
+                    <div class="method-list-content failed suite-QuaMinds-BackEndTests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyProductsPaging">verifyProductsPaging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QuaMinds-BackEndTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QuaMinds-BackEndTests" class="hide-methods passed suite-QuaMinds-BackEndTests"> (hide)</a> <!-- hide-methods passed suite-QuaMinds-BackEndTests -->
+                      <a href="#" panel-name="suite-QuaMinds-BackEndTests" class="show-methods passed suite-QuaMinds-BackEndTests"> (show)</a> <!-- show-methods passed suite-QuaMinds-BackEndTests -->
+                    </span>
+                    <div class="method-list-content passed suite-QuaMinds-BackEndTests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyCurrency">verifyCurrency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyFreeShipping">verifyFreeShipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyMercadoPago">verifyMercadoPago</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyProductPrice">verifyProductPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyProductTitle">verifyProductTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QuaMinds-BackEndTests" title="BackEndTests.BE_Tests" hash-for-method="verifyProductsTotal">verifyProductsTotal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QuaMinds-BackEndTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QuaMinds-FrontEndTests" class="panel QuaMinds-FrontEndTests">
+          <div class="suite-QuaMinds-FrontEndTests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">FrontEndTests.FE_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ejercicio2">
+                  </a> <!-- ejercicio2 -->
+                  <span class="method-name">ejercicio2</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at FrontEndTests.FE_Tests.ejercicio2(FE_Tests.java:208)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Free Shipping Bar)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrices">
+                  </a> <!-- verifyPrices -->
+                  <span class="method-name">verifyPrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:157)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verificar el mayor y el menor precio de una categoria)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrices">
+                  </a> <!-- verifyPrices -->
+                  <span class="method-name">verifyPrices</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:157)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verificar el mayor y el menor precio de una categoria)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuaMinds-FrontEndTests-class-failed -->
+          <div class="suite-QuaMinds-FrontEndTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FrontEndTests.FE_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ejercicio2">
+                  </a> <!-- ejercicio2 -->
+                  <span class="method-name">ejercicio2</span>
+                  <em>
+(Verify Free Shipping Bar)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCategoryClimatizacion">
+                  </a> <!-- verifyCategoryClimatizacion -->
+                  <span class="method-name">verifyCategoryClimatizacion</span>
+                  <em>
+(Verificar categoria - Climatizacion)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCategoryClimatizacion">
+                  </a> <!-- verifyCategoryClimatizacion -->
+                  <span class="method-name">verifyCategoryClimatizacion</span>
+                  <em>
+(Verificar categoria - Climatizacion)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmartCellsGrid">
+                  </a> <!-- verifySmartCellsGrid -->
+                  <span class="method-name">verifySmartCellsGrid</span>
+                  <em>
+(Verificar la grilla de Celulares y Smartphones)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySmartCellsGrid">
+                  </a> <!-- verifySmartCellsGrid -->
+                  <span class="method-name">verifySmartCellsGrid</span>
+                  <em>
+(Verificar la grilla de Celulares y Smartphones)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuaMinds-FrontEndTests-class-passed -->
+        </div> <!-- panel QuaMinds-FrontEndTests -->
+        <div panel-name="suite-QuaMinds-BackEndTests" class="panel QuaMinds-BackEndTests">
+          <div class="suite-QuaMinds-BackEndTests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">BackEndTests.BE_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsPaging">
+                  </a> <!-- verifyProductsPaging -->
+                  <span class="method-name">verifyProductsPaging</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at BackEndTests.BE_Tests.verifyProductsPaging(BE_Tests.java:47)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verifica productos por pagina)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuaMinds-BackEndTests-class-failed -->
+          <div class="suite-QuaMinds-BackEndTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">BackEndTests.BE_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCurrency">
+                  </a> <!-- verifyCurrency -->
+                  <span class="method-name">verifyCurrency</span>
+                  <em>
+(Verifica tipo de moneda para el pago)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFreeShipping">
+                  </a> <!-- verifyFreeShipping -->
+                  <span class="method-name">verifyFreeShipping</span>
+                  <em>
+(Verifica envio grais)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMercadoPago">
+                  </a> <!-- verifyMercadoPago -->
+                  <span class="method-name">verifyMercadoPago</span>
+                  <em>
+(Verifica si el producto acepta mercado pago)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPrice">
+                  </a> <!-- verifyProductPrice -->
+                  <span class="method-name">verifyProductPrice</span>
+                  <em>
+(Verifica el precio de un producto)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductTitle">
+                  </a> <!-- verifyProductTitle -->
+                  <span class="method-name">verifyProductTitle</span>
+                  <em>
+(Verifica el titulo de un producto)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductsTotal">
+                  </a> <!-- verifyProductsTotal -->
+                  <span class="method-name">verifyProductsTotal</span>
+                  <em>
+(Verifica total de productos)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QuaMinds-BackEndTests-class-passed -->
+        </div> <!-- panel QuaMinds-BackEndTests -->
+        <div panel-name="suite-QuaMinds-AutomationTests" class="panel QuaMinds-AutomationTests">
+        </div> <!-- panel QuaMinds-AutomationTests -->
+        <div panel-name="test-xml-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jurbaez\secureauth-workspace\Minds\FrontEndTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;QuaMinds-FrontEndTests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MLTests-Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FrontEndTests.FE_Tests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MLTests-Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MLTests-Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FrontEndTests.FE_Tests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MLTests-Firefox --&gt;
+&lt;/suite&gt; &lt;!-- QuaMinds-FrontEndTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jurbaez\secureauth-workspace\Minds\BackEndTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;QuaMinds-BackEndTests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MLTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;BackEndTests.BE_Tests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MLTests --&gt;
+&lt;/suite&gt; &lt;!-- QuaMinds-BackEndTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jurbaez\secureauth-workspace\Minds\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;QuaMinds-AutomationTests&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./BackEndTests.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./FrontEndTests.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- QuaMinds-AutomationTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QuaMinds-FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MLTests-Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MLTests-Firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QuaMinds-BackEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MLTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QuaMinds-AutomationTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QuaMinds-FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QuaMinds-BackEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QuaMinds-AutomationTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QuaMinds-FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QuaMinds-FrontEndTests');
+function tableData_QuaMinds-FrontEndTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifySmartCellsGrid')
+data.setCell(0, 2, 'FrontEndTests.FE_Tests')
+data.setCell(0, 3, 6745);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ejercicio2')
+data.setCell(1, 2, 'FrontEndTests.FE_Tests')
+data.setCell(1, 3, 6413);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ejercicio2')
+data.setCell(2, 2, 'FrontEndTests.FE_Tests')
+data.setCell(2, 3, 6224);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySmartCellsGrid')
+data.setCell(3, 2, 'FrontEndTests.FE_Tests')
+data.setCell(3, 3, 6035);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyPrices')
+data.setCell(4, 2, 'FrontEndTests.FE_Tests')
+data.setCell(4, 3, 4886);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyPrices')
+data.setCell(5, 2, 'FrontEndTests.FE_Tests')
+data.setCell(5, 3, 4862);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCategoryClimatizacion')
+data.setCell(6, 2, 'FrontEndTests.FE_Tests')
+data.setCell(6, 3, 3771);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCategoryClimatizacion')
+data.setCell(7, 2, 'FrontEndTests.FE_Tests')
+data.setCell(7, 3, 3545);
+window.suiteTableData['QuaMinds-FrontEndTests']= { tableData: data, tableDiv: 'times-div-QuaMinds-FrontEndTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <div id="times-div-QuaMinds-FrontEndTests">
+              </div> <!-- times-div-QuaMinds-FrontEndTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QuaMinds-BackEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QuaMinds-BackEndTests');
+function tableData_QuaMinds-BackEndTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCurrency')
+data.setCell(0, 2, 'BackEndTests.BE_Tests')
+data.setCell(0, 3, 3013);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyFreeShipping')
+data.setCell(1, 2, 'BackEndTests.BE_Tests')
+data.setCell(1, 3, 911);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyProductTitle')
+data.setCell(2, 2, 'BackEndTests.BE_Tests')
+data.setCell(2, 3, 769);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductPrice')
+data.setCell(3, 2, 'BackEndTests.BE_Tests')
+data.setCell(3, 3, 686);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyMercadoPago')
+data.setCell(4, 2, 'BackEndTests.BE_Tests')
+data.setCell(4, 3, 673);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyProductsPaging')
+data.setCell(5, 2, 'BackEndTests.BE_Tests')
+data.setCell(5, 3, 581);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyProductsTotal')
+data.setCell(6, 2, 'BackEndTests.BE_Tests')
+data.setCell(6, 3, 477);
+window.suiteTableData['QuaMinds-BackEndTests']= { tableData: data, tableDiv: 'times-div-QuaMinds-BackEndTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-QuaMinds-BackEndTests">
+              </div> <!-- times-div-QuaMinds-BackEndTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QuaMinds-AutomationTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QuaMinds-AutomationTests');
+function tableData_QuaMinds-AutomationTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['QuaMinds-AutomationTests']= { tableData: data, tableDiv: 'times-div-QuaMinds-AutomationTests'}
+return data;
+}
+              </script>
+              <div id="times-div-QuaMinds-AutomationTests">
+              </div> <!-- times-div-QuaMinds-AutomationTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QuaMinds-FrontEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QuaMinds-BackEndTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QuaMinds-AutomationTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QuaMinds-FrontEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">FrontEndTests.FE_Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpTests(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ejercicio2</span>
+                <span class="method-start">3671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCategoryClimatizacion</span>
+                <span class="method-start">9896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPrices</span>
+                <span class="method-start">13668 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySmartCellsGrid</span>
+                <span class="method-start">18531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">25277 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpTests(firefox)</span>
+                <span class="method-start">26076 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ejercicio2</span>
+                <span class="method-start">30054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCategoryClimatizacion</span>
+                <span class="method-start">36467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyPrices</span>
+                <span class="method-start">40013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySmartCellsGrid</span>
+                <span class="method-start">44901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">50937 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QuaMinds-BackEndTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">BackEndTests.BE_Tests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpTests</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">verifyCurrency</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFreeShipping</span>
+                <span class="method-start">3039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMercadoPago</span>
+                <span class="method-start">3952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPrice</span>
+                <span class="method-start">4625 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductTitle</span>
+                <span class="method-start">5312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyProductsPaging</span>
+                <span class="method-start">6082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductsTotal</span>
+                <span class="method-start">6665 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QuaMinds-AutomationTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

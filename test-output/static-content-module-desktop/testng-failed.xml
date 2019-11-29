@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [static-content-module-desktop]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="static-content-suite-tests(failed)">
+    <classes>
+      <class name="FrontEndTests.FE_Tests">
+        <methods>
+          <include name="verifyPrices"/>
+          <include name="setUpTests"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- FrontEndTests.FE_Tests -->
+    </classes>
+  </test> <!-- static-content-suite-tests(failed) -->
+  <test thread-count="5" name="static-content-suite-tests3(failed)">
+    <classes>
+      <class name="FrontEndTests.FE_Tests">
+        <methods>
+          <include name="verifyPrices"/>
+          <include name="setUpTests"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- FrontEndTests.FE_Tests -->
+    </classes>
+  </test> <!-- static-content-suite-tests3(failed) -->
+</suite> <!-- Failed suite [static-content-module-desktop] -->

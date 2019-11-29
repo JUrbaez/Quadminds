@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [QuaMinds-BackEndTests]">
+  <test thread-count="5" name="MLTests(failed)">
+    <classes>
+      <class name="BackEndTests.BE_Tests">
+        <methods>
+          <include name="verifyProductsPaging"/>
+          <include name="setUpTests"/>
+        </methods>
+      </class> <!-- BackEndTests.BE_Tests -->
+    </classes>
+  </test> <!-- MLTests(failed) -->
+</suite> <!-- Failed suite [QuaMinds-BackEndTests] -->
