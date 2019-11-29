@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="15" passed="11">
+<testng-results skipped="0" failed="5" ignored="0" total="25" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="QuaMinds-FrontEndTests" duration-ms="52193" started-at="2019-11-28T20:24:08Z" finished-at="2019-11-28T20:25:00Z">
+  <suite name="QuaMinds-FrontEndTests" duration-ms="95530" started-at="2019-11-29T17:33:00Z" finished-at="2019-11-29T17:34:35Z">
     <groups>
     </groups>
-    <test name="MLTests-Chrome" duration-ms="26039" started-at="2019-11-28T20:24:08Z" finished-at="2019-11-28T20:24:34Z">
+    <test name="MLTests-Chrome" duration-ms="47205" started-at="2019-11-29T17:33:00Z" finished-at="2019-11-29T17:33:47Z">
       <class name="FrontEndTests.FE_Tests">
-        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:FrontEndTests.FE_Tests@6e0e048a]" name="setUpTests" is-config="true" duration-ms="3671" started-at="2019-11-28T20:24:08Z" finished-at="2019-11-28T20:24:11Z">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="setUpTests" is-config="true" duration-ms="3849" started-at="2019-11-29T17:33:00Z" finished-at="2019-11-29T17:33:04Z">
           <params>
             <param index="0">
               <value>
@@ -18,54 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTests -->
-        <test-method status="FAIL" signature="ejercicio2()[pri:0, instance:FrontEndTests.FE_Tests@6e0e048a]" name="ejercicio2" duration-ms="6224" started-at="2019-11-28T20:24:11Z" description="Verify Free Shipping Bar" finished-at="2019-11-28T20:24:17Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at FrontEndTests.FE_Tests.ejercicio2(FE_Tests.java:208)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="ejercicio2()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="ejercicio2" duration-ms="7341" started-at="2019-11-29T17:33:04Z" description="Verify Free Shipping Bar" finished-at="2019-11-29T17:33:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ejercicio2 -->
-        <test-method status="PASS" signature="verifyCategoryClimatizacion()[pri:0, instance:FrontEndTests.FE_Tests@6e0e048a]" name="verifyCategoryClimatizacion" duration-ms="3771" started-at="2019-11-28T20:24:17Z" description="Verificar categoria - Climatizacion" finished-at="2019-11-28T20:24:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCategoryClimatizacion -->
-        <test-method status="FAIL" signature="verifyPrices()[pri:0, instance:FrontEndTests.FE_Tests@6e0e048a]" name="verifyPrices" duration-ms="4862" started-at="2019-11-28T20:24:21Z" description="Verificar el mayor y el menor precio de una categoria" finished-at="2019-11-28T20:24:26Z">
+        <test-method status="FAIL" signature="verifyPrices()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifyPrices" duration-ms="5375" started-at="2019-11-29T17:33:11Z" description="Verificar el mayor y el menor precio de una categoria" finished-at="2019-11-29T17:33:16Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -75,7 +32,7 @@ expected [true] but found [false]]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:157)
+at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:289)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -108,19 +65,90 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrices -->
-        <test-method status="PASS" signature="verifySmartCellsGrid()[pri:0, instance:FrontEndTests.FE_Tests@6e0e048a]" name="verifySmartCellsGrid" duration-ms="6745" started-at="2019-11-28T20:24:26Z" description="Verificar la grilla de Celulares y Smartphones" finished-at="2019-11-28T20:24:33Z">
+        <test-method status="FAIL" signature="verifyShipment()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifyShipment" duration-ms="4093" started-at="2019-11-29T17:33:16Z" description="Verificar Envio Gratis" finished-at="2019-11-29T17:33:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at FrontEndTests.FE_Tests.verifyShipment(FE_Tests.java:327)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShipment -->
+        <test-method status="PASS" signature="verifySmartCellsGrid()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifySmartCellsGrid" duration-ms="6843" started-at="2019-11-29T17:33:20Z" description="Verificar la grilla de Celulares y Smartphones" finished-at="2019-11-29T17:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySmartCellsGrid -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:FrontEndTests.FE_Tests@6e0e048a]" name="closeDriver" is-config="true" duration-ms="762" started-at="2019-11-28T20:24:33Z" finished-at="2019-11-28T20:24:34Z">
+        <test-method status="PASS" signature="verifySubCategoryBebes()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifySubCategoryBebes" duration-ms="3743" started-at="2019-11-29T17:33:27Z" description="Verificar categoria - Juguetes y Bebes - Cuarto" finished-at="2019-11-29T17:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryBebes -->
+        <test-method status="PASS" signature="verifySubCategoryCS()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifySubCategoryCS" duration-ms="4260" started-at="2019-11-29T17:33:31Z" description="Verificar categoria - Tecnología - Celulares y Smartphones" finished-at="2019-11-29T17:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryCS -->
+        <test-method status="PASS" signature="verifySubCategoryClimatizacion()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifySubCategoryClimatizacion" duration-ms="3513" started-at="2019-11-29T17:33:35Z" description="Verificar categoria - Climatizacion" finished-at="2019-11-29T17:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryClimatizacion -->
+        <test-method status="PASS" signature="verifySubCategoryDrones()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifySubCategoryDrones" duration-ms="3754" started-at="2019-11-29T17:33:39Z" description="Verificar categoria - Tecnología - Drones" finished-at="2019-11-29T17:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryDrones -->
+        <test-method status="PASS" signature="verifySubCategoryTextiles()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="verifySubCategoryTextiles" duration-ms="3649" started-at="2019-11-29T17:33:43Z" description="Verificar categoria - Herramientas e Industrias - Textiles" finished-at="2019-11-29T17:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryTextiles -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:FrontEndTests.FE_Tests@5b87ed94]" name="closeDriver" is-config="true" duration-ms="776" started-at="2019-11-29T17:33:46Z" finished-at="2019-11-29T17:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- FrontEndTests.FE_Tests -->
     </test> <!-- MLTests-Chrome -->
-    <test name="MLTests-Firefox" duration-ms="26118" started-at="2019-11-28T20:24:34Z" finished-at="2019-11-28T20:25:00Z">
+    <test name="MLTests-Firefox" duration-ms="48305" started-at="2019-11-29T17:33:47Z" finished-at="2019-11-29T17:34:35Z">
       <class name="FrontEndTests.FE_Tests">
-        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:FrontEndTests.FE_Tests@5c5a1b69]" name="setUpTests" is-config="true" duration-ms="3978" started-at="2019-11-28T20:24:34Z" finished-at="2019-11-28T20:24:38Z">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="setUpTests" is-config="true" duration-ms="4466" started-at="2019-11-29T17:33:47Z" finished-at="2019-11-29T17:33:51Z">
           <params>
             <param index="0">
               <value>
@@ -131,15 +159,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTests -->
-        <test-method status="PASS" signature="ejercicio2()[pri:0, instance:FrontEndTests.FE_Tests@5c5a1b69]" name="ejercicio2" duration-ms="6413" started-at="2019-11-28T20:24:38Z" description="Verify Free Shipping Bar" finished-at="2019-11-28T20:24:44Z">
+        <test-method status="PASS" signature="ejercicio2()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="ejercicio2" duration-ms="7252" started-at="2019-11-29T17:33:51Z" description="Verify Free Shipping Bar" finished-at="2019-11-29T17:33:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ejercicio2 -->
-        <test-method status="PASS" signature="verifyCategoryClimatizacion()[pri:0, instance:FrontEndTests.FE_Tests@5c5a1b69]" name="verifyCategoryClimatizacion" duration-ms="3545" started-at="2019-11-28T20:24:44Z" description="Verificar categoria - Climatizacion" finished-at="2019-11-28T20:24:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCategoryClimatizacion -->
-        <test-method status="FAIL" signature="verifyPrices()[pri:0, instance:FrontEndTests.FE_Tests@5c5a1b69]" name="verifyPrices" duration-ms="4886" started-at="2019-11-28T20:24:48Z" description="Verificar el mayor y el menor precio de una categoria" finished-at="2019-11-28T20:24:52Z">
+        <test-method status="FAIL" signature="verifyPrices()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifyPrices" duration-ms="5426" started-at="2019-11-29T17:33:59Z" description="Verificar el mayor y el menor precio de una categoria" finished-at="2019-11-29T17:34:04Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -149,7 +173,7 @@ expected [true] but found [false]]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:157)
+at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:289)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -182,47 +206,112 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrices -->
-        <test-method status="PASS" signature="verifySmartCellsGrid()[pri:0, instance:FrontEndTests.FE_Tests@5c5a1b69]" name="verifySmartCellsGrid" duration-ms="6035" started-at="2019-11-28T20:24:52Z" description="Verificar la grilla de Celulares y Smartphones" finished-at="2019-11-28T20:24:59Z">
+        <test-method status="FAIL" signature="verifyShipment()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifyShipment" duration-ms="3724" started-at="2019-11-29T17:34:04Z" description="Verificar Envio Gratis" finished-at="2019-11-29T17:34:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at FrontEndTests.FE_Tests.verifyShipment(FE_Tests.java:327)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShipment -->
+        <test-method status="PASS" signature="verifySmartCellsGrid()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifySmartCellsGrid" duration-ms="6621" started-at="2019-11-29T17:34:08Z" description="Verificar la grilla de Celulares y Smartphones" finished-at="2019-11-29T17:34:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySmartCellsGrid -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:FrontEndTests.FE_Tests@5c5a1b69]" name="closeDriver" is-config="true" duration-ms="1256" started-at="2019-11-28T20:24:59Z" finished-at="2019-11-28T20:25:00Z">
+        <test-method status="PASS" signature="verifySubCategoryBebes()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifySubCategoryBebes" duration-ms="3556" started-at="2019-11-29T17:34:15Z" description="Verificar categoria - Juguetes y Bebes - Cuarto" finished-at="2019-11-29T17:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryBebes -->
+        <test-method status="PASS" signature="verifySubCategoryCS()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifySubCategoryCS" duration-ms="4344" started-at="2019-11-29T17:34:18Z" description="Verificar categoria - Tecnología - Celulares y Smartphones" finished-at="2019-11-29T17:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryCS -->
+        <test-method status="PASS" signature="verifySubCategoryClimatizacion()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifySubCategoryClimatizacion" duration-ms="3829" started-at="2019-11-29T17:34:22Z" description="Verificar categoria - Climatizacion" finished-at="2019-11-29T17:34:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryClimatizacion -->
+        <test-method status="PASS" signature="verifySubCategoryDrones()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifySubCategoryDrones" duration-ms="3555" started-at="2019-11-29T17:34:26Z" description="Verificar categoria - Tecnología - Drones" finished-at="2019-11-29T17:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryDrones -->
+        <test-method status="PASS" signature="verifySubCategoryTextiles()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="verifySubCategoryTextiles" duration-ms="3872" started-at="2019-11-29T17:34:30Z" description="Verificar categoria - Herramientas e Industrias - Textiles" finished-at="2019-11-29T17:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCategoryTextiles -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:FrontEndTests.FE_Tests@43814d18]" name="closeDriver" is-config="true" duration-ms="1648" started-at="2019-11-29T17:34:34Z" finished-at="2019-11-29T17:34:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- FrontEndTests.FE_Tests -->
     </test> <!-- MLTests-Firefox -->
   </suite> <!-- QuaMinds-FrontEndTests -->
-  <suite name="QuaMinds-BackEndTests" duration-ms="7134" started-at="2019-11-28T20:24:00Z" finished-at="2019-11-28T20:24:08Z">
+  <suite name="QuaMinds-BackEndTests" duration-ms="7833" started-at="2019-11-29T17:32:52Z" finished-at="2019-11-29T17:33:00Z">
     <groups>
     </groups>
-    <test name="MLTests" duration-ms="7134" started-at="2019-11-28T20:24:00Z" finished-at="2019-11-28T20:24:08Z">
+    <test name="MLTests" duration-ms="7833" started-at="2019-11-29T17:32:52Z" finished-at="2019-11-29T17:33:00Z">
       <class name="BackEndTests.BE_Tests">
-        <test-method status="PASS" signature="setUpTests()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="setUpTests" is-config="true" duration-ms="10" started-at="2019-11-28T20:24:00Z" finished-at="2019-11-28T20:24:00Z">
+        <test-method status="PASS" signature="setUpTests()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="setUpTests" is-config="true" duration-ms="10" started-at="2019-11-29T17:32:52Z" finished-at="2019-11-29T17:32:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTests -->
-        <test-method status="PASS" signature="verifyCurrency()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyCurrency" duration-ms="3013" started-at="2019-11-28T20:24:00Z" description="Verifica tipo de moneda para el pago" finished-at="2019-11-28T20:24:03Z">
+        <test-method status="PASS" signature="verifyCurrency()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyCurrency" duration-ms="3882" started-at="2019-11-29T17:32:52Z" description="Verifica tipo de moneda para el pago" finished-at="2019-11-29T17:32:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCurrency -->
-        <test-method status="PASS" signature="verifyFreeShipping()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyFreeShipping" duration-ms="911" started-at="2019-11-28T20:24:03Z" description="Verifica envio grais" finished-at="2019-11-28T20:24:04Z">
+        <test-method status="PASS" signature="verifyFreeShipping()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyFreeShipping" duration-ms="822" started-at="2019-11-29T17:32:56Z" description="Verifica envio grais" finished-at="2019-11-29T17:32:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFreeShipping -->
-        <test-method status="PASS" signature="verifyMercadoPago()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyMercadoPago" duration-ms="673" started-at="2019-11-28T20:24:04Z" description="Verifica si el producto acepta mercado pago" finished-at="2019-11-28T20:24:05Z">
+        <test-method status="PASS" signature="verifyMercadoPago()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyMercadoPago" duration-ms="703" started-at="2019-11-29T17:32:57Z" description="Verifica si el producto acepta mercado pago" finished-at="2019-11-29T17:32:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMercadoPago -->
-        <test-method status="PASS" signature="verifyProductPrice()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyProductPrice" duration-ms="686" started-at="2019-11-28T20:24:05Z" description="Verifica el precio de un producto" finished-at="2019-11-28T20:24:06Z">
+        <test-method status="PASS" signature="verifyProductPrice()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyProductPrice" duration-ms="724" started-at="2019-11-29T17:32:57Z" description="Verifica el precio de un producto" finished-at="2019-11-29T17:32:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPrice -->
-        <test-method status="PASS" signature="verifyProductTitle()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyProductTitle" duration-ms="769" started-at="2019-11-28T20:24:06Z" description="Verifica el titulo de un producto" finished-at="2019-11-28T20:24:06Z">
+        <test-method status="PASS" signature="verifyProductTitle()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyProductTitle" duration-ms="664" started-at="2019-11-29T17:32:58Z" description="Verifica el titulo de un producto" finished-at="2019-11-29T17:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductTitle -->
-        <test-method status="FAIL" signature="verifyProductsPaging()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyProductsPaging" duration-ms="581" started-at="2019-11-28T20:24:06Z" description="Verifica productos por pagina" finished-at="2019-11-28T20:24:07Z">
+        <test-method status="FAIL" signature="verifyProductsPaging()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyProductsPaging" duration-ms="488" started-at="2019-11-29T17:32:59Z" description="Verifica productos por pagina" finished-at="2019-11-29T17:32:59Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -266,14 +355,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductsPaging -->
-        <test-method status="PASS" signature="verifyProductsTotal()[pri:0, instance:BackEndTests.BE_Tests@4e1d422d]" name="verifyProductsTotal" duration-ms="477" started-at="2019-11-28T20:24:07Z" description="Verifica total de productos" finished-at="2019-11-28T20:24:08Z">
+        <test-method status="PASS" signature="verifyProductsTotal()[pri:0, instance:BackEndTests.BE_Tests@3327bd23]" name="verifyProductsTotal" duration-ms="524" started-at="2019-11-29T17:32:59Z" description="Verifica total de productos" finished-at="2019-11-29T17:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductsTotal -->
       </class> <!-- BackEndTests.BE_Tests -->
     </test> <!-- MLTests -->
   </suite> <!-- QuaMinds-BackEndTests -->
-  <suite name="QuaMinds-AutomationTests" duration-ms="0" started-at="2019-11-28T20:25:00Z" finished-at="2019-11-28T20:25:00Z">
+  <suite name="QuaMinds-AutomationTests" duration-ms="0" started-at="2019-11-29T17:34:36Z" finished-at="2019-11-29T17:34:36Z">
     <groups>
     </groups>
   </suite> <!-- QuaMinds-AutomationTests -->

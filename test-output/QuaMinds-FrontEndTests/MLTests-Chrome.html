@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>MLTests-Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 28 17:24:08 ART 2019</td>
+<td>Started on:</td><td>Fri Nov 29 14:33:00 ART 2019</td>
 </tr>
-<tr><td>Total time:</td><td>26 seconds (26039 ms)</td>
+<tr><td>Total time:</td><td>47 seconds (47205 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='FrontEndTests.FE_Tests.ejercicio2()'><b>ejercicio2</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verify Free Shipping Bar</td>
+<td title='FrontEndTests.FE_Tests.verifyPrices()'><b>verifyPrices</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar el mayor y el menor precio de una categoria</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
 	expected [true] but found [false]
-	at FrontEndTests.FE_Tests.ejercicio2(FE_Tests.java:208)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1901824111", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1901824111'><pre>java.lang.AssertionError: The following asserts failed:
+	at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:289)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace797539755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace797539755'><pre>java.lang.AssertionError: The following asserts failed:
 	expected [true] but found [false]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at FrontEndTests.FE_Tests.ejercicio2(FE_Tests.java:208)
+	at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:289)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -111,18 +111,26 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
-<td>FrontEndTests.FE_Tests@6e0e048a</td></tr>
+<td>5</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
 <tr>
-<td title='FrontEndTests.FE_Tests.verifyPrices()'><b>verifyPrices</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar el mayor y el menor precio de una categoria</td>
+<td title='FrontEndTests.FE_Tests.verifyShipment()'><b>verifyShipment</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar Envio Gratis</td>
 <td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
 	expected [true] but found [false]
-	at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:157)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1955406455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1955406455'><pre>java.lang.AssertionError: The following asserts failed:
+	at FrontEndTests.FE_Tests.verifyShipment(FE_Tests.java:327)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace793521364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace793521364'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
+	expected [true] but found [false],
 	expected [true] but found [false]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at FrontEndTests.FE_Tests.verifyPrices(FE_Tests.java:157)
+	at FrontEndTests.FE_Tests.verifyShipment(FE_Tests.java:327)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -151,7 +159,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>4</td>
-<td>FrontEndTests.FE_Tests@6e0e048a</td></tr>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -161,15 +169,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='FrontEndTests.FE_Tests.verifyCategoryClimatizacion()'><b>verifyCategoryClimatizacion</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar categoria - Climatizacion</td>
+<td title='FrontEndTests.FE_Tests.ejercicio2()'><b>ejercicio2</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verify Free Shipping Bar</td>
 <td></td>
-<td>3</td>
-<td>FrontEndTests.FE_Tests@6e0e048a</td></tr>
+<td>7</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
 <tr>
 <td title='FrontEndTests.FE_Tests.verifySmartCellsGrid()'><b>verifySmartCellsGrid</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar la grilla de Celulares y Smartphones</td>
 <td></td>
 <td>6</td>
-<td>FrontEndTests.FE_Tests@6e0e048a</td></tr>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
+<tr>
+<td title='FrontEndTests.FE_Tests.verifySubCategoryBebes()'><b>verifySubCategoryBebes</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar categoria - Juguetes y Bebes - Cuarto</td>
+<td></td>
+<td>3</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
+<tr>
+<td title='FrontEndTests.FE_Tests.verifySubCategoryCS()'><b>verifySubCategoryCS</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar categoria - Tecnología - Celulares y Smartphones</td>
+<td></td>
+<td>4</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
+<tr>
+<td title='FrontEndTests.FE_Tests.verifySubCategoryClimatizacion()'><b>verifySubCategoryClimatizacion</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar categoria - Climatizacion</td>
+<td></td>
+<td>3</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
+<tr>
+<td title='FrontEndTests.FE_Tests.verifySubCategoryDrones()'><b>verifySubCategoryDrones</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar categoria - Tecnología - Drones</td>
+<td></td>
+<td>3</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
+<tr>
+<td title='FrontEndTests.FE_Tests.verifySubCategoryTextiles()'><b>verifySubCategoryTextiles</b><br>Test class: FrontEndTests.FE_Tests<br>Test method: Verificar categoria - Herramientas e Industrias - Textiles</td>
+<td></td>
+<td>3</td>
+<td>FrontEndTests.FE_Tests@5b87ed94</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [QuaMinds-FrontEndTests]">
+<suite name="Failed suite [QuaMinds-FrontEndTests]">
   <test thread-count="5" name="MLTests-Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="FrontEndTests.FE_Tests">
         <methods>
           <include name="verifyPrices"/>
-          <include name="ejercicio2"/>
+          <include name="verifyShipment"/>
           <include name="setUpTests"/>
           <include name="closeDriver"/>
         </methods>
@@ -20,6 +20,7 @@
       <class name="FrontEndTests.FE_Tests">
         <methods>
           <include name="verifyPrices"/>
+          <include name="verifyShipment"/>
           <include name="setUpTests"/>
           <include name="closeDriver"/>
         </methods>
