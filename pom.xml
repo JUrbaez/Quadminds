@@ -15,7 +15,7 @@
         <io-rest-assured-version>4.1.2</io-rest-assured-version>
         <lombok-version>1.18.2</lombok-version>
         <jayway-jsonpath-version>2.1.0</jayway-jsonpath-version>
-        <jsoup-version>1.11.3</jsoup-version>
+        <jsoup-version>1.14.2</jsoup-version>
         <webdrivermanager-version>3.7.1</webdrivermanager-version>
     </properties>
  
